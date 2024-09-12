@@ -1,13 +1,14 @@
 public class garden {
     public static void main(String[] args) {
+        int length, width, area, perimeter;
         // My measurements
-        int length =  12; //  length in meters
-        int width =  15;   //  width in meters
+        length = 12;
+        width =  15;  //  width in meters
 
         //the area calculation of my garden
-        int area = length * width;
+        area = length * width;
         //the calculation of the perimeters
-        int perimeter = 2 * (length + width);
+        perimeter = 2 * (length + width);
 
         //the final result of my gardens measurements
         System.out.println("Length of the garden: " + length + " meters");
